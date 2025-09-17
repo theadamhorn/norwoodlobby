@@ -9,7 +9,7 @@ export default defineConfig({
       "~": path.resolve(__dirname, "src"),
     },
   },
-  base: "/theadamhorn/",   // 👈 important for Pages
+  base: "/theadamhorn/", 
   build: {
     target: "esnext",
   },
